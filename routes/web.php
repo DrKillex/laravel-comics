@@ -23,4 +23,4 @@ Route::get('/', function () {
         'contacts' => config('contact')
     ];
     return view('home', $data);
-});
+})-> name('home');
