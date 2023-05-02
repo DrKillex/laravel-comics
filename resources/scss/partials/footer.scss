@@ -1,0 +1,87 @@
+footer{
+    #displayer{
+        .bg{
+            background-color: #0282f9; 
+            ul{
+                display: flex;
+                list-style: none;
+                align-items: center;
+                li {
+                    width: calc(100% / 5);
+                    padding: 40px 10px;
+                    a {
+                        display: flex;
+                        align-items: center;
+                        text-decoration: none;
+                        color: white;
+                        .img{
+                            width: 50px;
+                            margin-right: 20px;
+                            img {
+                                width: 100%;
+                              
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #nav{
+        .bg {
+            background-image: url("../img/footer-bg.jpg");
+            background-position: center;
+            background-size: cover;
+            color: white;
+            .container {
+                display: flex;
+                padding: 80px 10px;
+                div {
+                    margin-right: 20px;
+                    ul {
+                    list-style: none;
+                    padding: 20px 0;
+                    a {
+                        color: #959595;
+                        text-decoration: none;
+                    }
+                }
+                }                
+            }    
+        }
+    }
+    #contacts{
+        
+.bg {
+    background-color: #303030;
+    
+    .container {
+        display: flex;
+        align-items: center;
+        padding: 20px 10px;
+        justify-content: space-between;
+        .btn{
+            color: white;
+            border: 1px solid #0282f9;
+            padding: 10px;
+        }
+        .nav{
+            display: flex;
+            align-items: center;
+            div {
+                color: #0282f9;
+                margin-right: 15px;
+            }
+            ul {
+                display: flex;
+                list-style: none;
+                li:not(:last-child) {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    
+}
+    }
+}
