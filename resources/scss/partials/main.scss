@@ -23,8 +23,11 @@ main{
             &.load{
                 margin: 20px auto;
             }
+            &.comic-img{
+                width: 150px;
+                top: -150px;
+            }
         }
-        
         .cards{
             display: flex;
             flex-wrap: wrap;
@@ -47,4 +50,11 @@ main{
         }        
     }
 }
+
+}
+.bg.white{
+    background-color: white;
+    .container{
+        color: black;
+    }   
 }

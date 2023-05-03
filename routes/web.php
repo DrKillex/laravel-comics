@@ -24,3 +24,20 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 })-> name('home');
+
+Route::get('/comic/{index}/', function ($index) {
+    $all_comics = config('comics');
+    if($index > count($all_comics) - 1){
+        abort(404);
+    };
+    $comic = $all_comics[$index];
+    $data = [
+        'comic' => $comic,
+        'nav' => config('nav'),
+        'displays' => config('displayer'),
+        'dclist' => config('dccomicslist'),
+        'shoplist' => config('shoplist'),
+        'contacts' => config('contact')
+    ];
+    return view('comic', $data);
+})->where('index', '[0-9]+')-> name('comic');
