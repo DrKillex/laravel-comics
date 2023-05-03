@@ -56,5 +56,23 @@ main{
     background-color: white;
     .container{
         color: black;
+        .ads{
+            height: 100px;
+            width: 100px;
+        }
+        .talent{
+            width: 60%;
+            padding-right: 40px;
+            .names{
+                width: 60%;
+                margin-left: auto;
+            }
+        }
+        .spec{
+            width: 20%;
+            p{
+                margin-left: auto;
+            }
+        }
     }   
 }
