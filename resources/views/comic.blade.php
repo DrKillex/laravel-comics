@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-12 d-flex">
                         <div class="talent">
-                            <h4>talent</h4>
+                            <h4>TALENT</h4>
                             <div class="d-flex">
                                 Art by: <p class="names">
                                     @foreach ($comic['artists'] as $artist)
