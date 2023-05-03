@@ -56,22 +56,36 @@ main{
     background-color: white;
     .container{
         color: black;
+        padding: 30px 0;
+        .green-banner{
+            background-color: green;
+            padding: 10px 20px;
+        }
+        .description{
+            font-size: 15px;
+        }
         .ads{
             height: 100px;
             width: 100px;
         }
         .talent{
+            font-size: 13px;
             width: 60%;
             padding-right: 40px;
             .names{
                 width: 60%;
                 margin-left: auto;
+                color: aqua;
             }
         }
         .spec{
+            font-size: 13px;
             width: 20%;
             p{
                 margin-left: auto;
+            }
+            .series{
+                color: aqua;
             }
         }
     }   

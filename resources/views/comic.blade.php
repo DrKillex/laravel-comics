@@ -17,7 +17,7 @@
                                 <p>Check availability</p>
                             </div>
                         </div>
-                        <p>{{$comic['description']}}</p>
+                        <p class="description">{{$comic['description']}}</p>
                     </div>
                     <div class="col-4">
                         <h5>ADVERTISEMENT</h5>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="spec">
                             <h4>SPECS</h4>
-                            <div class="d-flex">Series: <p>{{$comic['series']}}</p></div>
+                            <div class="d-flex">Series: <p class="series">{{$comic['series']}}</p></div>
                             <div class="d-flex">U.S. Price: <p>{{$comic['price']}}</p></div>
                             <div class="d-flex">On Sale Date: <p>{{$comic['sale_date']}}</p></div>
                         </div>
